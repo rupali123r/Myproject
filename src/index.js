@@ -30,14 +30,14 @@ root.render(
       <Service/>
       <Skill/>
       <Project/>
-      
+{/*       
     <Routes>
-    <Route path="/">
+    <Route path="/"> */}
     {/* <Route index path="/" element={<Home />} />
     <Route index path="/about" element={<About />} /> */}
    
-      </Route>
-    </Routes>
+      {/* </Route>
+    </Routes> */}
     < Footer/>
 
     </Router>

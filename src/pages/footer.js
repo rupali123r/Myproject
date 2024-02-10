@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaMobileScreenButton } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
@@ -44,7 +44,7 @@ function Footer() {
                                         <div className="col-md-12 col-12">
                                             <ul className="contact-detail">
                                                 <li>
-                                                    <span><IoIosMail className="c-icon" /></span>
+                                                    <span><IoIosMail className="c-icon" /></span>ḍ
                                                     <p><strong>Email:</strong><a href="rupali3530rajput@gmail.com " className="contact-link">rupali3530rajput@gmail.com </a> </p>
 
                                                 </li>
@@ -85,20 +85,20 @@ function Footer() {
 
             <div className="container-fluid f-color pt-3">
                 <div className="container">
-                   
-                        <footer className="row" style={{ justifyContent: "space-between"}}>
-                            <div className="col-md-4">
-                                <div className="copy-right">
-                                    <p>© 2023 Developer</p>
-                                </div>
+
+                    <footer className="row" style={{ justifyContent: "space-between" }}>
+                        <div className="col-md-4">
+                            <div className="copy-right">
+                                <p>© 2023 Developer</p>
                             </div>
-                            <div className="col-md-3"></div>
-                            <div className="col-md-4">
-                                
-                                <p style={{textAlign: "right"}}>Designed By <Link to="" style={{color: "#fff", textDecoration: "none", textAlign: "right"}}>Rupali</Link></p>
-                            </div>
-                        </footer>
-                   
+                        </div>
+                        <div className="col-md-3"></div>
+                        <div className="col-md-4">
+
+                            <p style={{ textAlign: "right" }}>Designed By <Link to="" style={{ color: "#fff", textDecoration: "none", textAlign: "right" }}>Rupali</Link></p>
+                        </div>
+                    </footer>
+
                 </div>
             </div>
 
