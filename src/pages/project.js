@@ -109,7 +109,7 @@ function Project() {
                                                 <div className="project">
                                                     <img src="online-purchasing-payment-e-commerce-banking_53876-127604.jpg" alt='dark' />
                                                     <div className="pro-overlay">
-                                                        <h3></h3>
+                                                  
                                                         <p>Govt. Website</p>
                                                         <a href="http://www.governancenow.com/" rel="noreferrer" >live</a>
                                                     </div>
